@@ -1,0 +1,15 @@
+# 这个是该项目需要的三方库
+scapy
+tinker
+subprocess
+
+# 这个是Mysql建表语句
+Mysql sql：
+create database itcast;
+use itcast;
+create table users
+(
+    username varchar(10)  null comment '用户名',
+    password varchar(255) null
+);
+
